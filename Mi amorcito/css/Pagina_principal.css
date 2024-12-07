@@ -1,0 +1,1096 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+header h3 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ce0060;
+}
+
+.section-agradecimientos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  font-size: 20px;
+}
+
+.section-agradecimientos h2{
+    position: relative;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 360px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.section-agradecimientos img{
+    position: relative;
+    width: 300px;
+    transition: 0.8s;
+}
+
+.section-agradecimientos img:hover{
+    transform: translate(0px, -10px);
+}
+
+.section-coincidencia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  font-size: 20px;
+}
+
+.section-coincidencia h2{
+    position: relative;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 420px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.coincidencia1{
+    position: relative;
+    width: 300px;
+    transition: 0.8s;
+    margin: 0 0;
+}
+
+.coincidencia1:hover{
+    transform: translate(0px, -10px);
+}
+
+.coincidencia2{
+    position: relative;
+    width: 300px;
+    transition: 0.8s;
+    margin: 0 0;
+}
+
+.coincidencia2:hover{
+    transform: translate(0px, -10px);
+}
+
+.section-gustarme {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  font-size: 20px;
+}
+
+.section-gustarme h2{
+    position: relative;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 380px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.gustarme-1{
+    position: relative;
+    width: 280px;
+    transition: 0.8s;
+}
+
+.gustarme-1:hover{
+    transform: translate(0px, -10px);
+}
+
+.gustarme-2{
+    position: relative;
+    width: 280px;
+    transition: 0.8s;
+}
+
+.gustarme-2:hover{
+    transform: translate(0px, -10px);
+}
+
+.gustarme-3{
+    position: relative;
+    width: 180px;
+    margin-top: 95px;
+    transition: 0.8s;
+}
+
+.gustarme-3:hover{
+    transform: translate(0px, -10px);
+}
+
+.gustarme-4{
+    position: relative;
+    width: 180px;
+    margin-top: 95px;
+    transition: 0.8s;
+}
+
+.gustarme-4:hover{
+    transform: translate(0px, -10px);
+}
+
+.section-tu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    font-size: 20px;
+}
+
+.section-tu h2{
+    position: relative;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.section-tu img{
+    position: relative;
+    width: 50%;
+    margin: 0 auto
+    transition: 0.8s;
+}
+
+.section-tu img:hover{
+    transform: translate(0px, -10px);
+}
+
+.section-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.section-nosotros h2{
+    position: absolute;
+    text-align: center;
+    margin: 0 ;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.video-container {
+  position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-1 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container:hover .video-1 {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-2 {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-2 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-2:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-2:hover .video-2  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-3 {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-3 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-3:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-3:hover .video-3  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-4 {
+    position: relative;
+    display: flex;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-4 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-4:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-4:hover .video-4  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-5 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-5 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-5:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-5:hover .video-5  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-6 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-6 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-6:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-6:hover .video-6  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container {
+    position: relative;
+    display: flex;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-1 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container:hover .foto-1  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-2 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-2 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-2:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-2:hover .foto-2  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-3 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-3 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-3:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-3:hover .foto-3  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-4 {
+    position: relative;
+    display: flex;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-4 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-4:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-4:hover .foto-4  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-5 {
+    position: relative;
+    display: flex;
+  
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-5 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-5:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-5:hover .foto-5  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-6 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-6 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-6:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-6:hover .foto-6  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-7 {
+    position: relative;
+    padding-bottom: 0px;
+    display: flex;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-7 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-7:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-7:hover .foto-7  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-8 {
+    position: relative;
+    padding-bottom: 0px;
+    display: grid ;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-8 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-8:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-8:hover .foto-8  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-9 {
+    position: relative;
+    padding-bottom: 0px;
+    display: grid;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-9 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-9:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-9:hover .foto-9  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .musica{
+    position: relative;
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+  }
+
+
+  .cancion-1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 500px;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+        display: block;
+    }
+
+    .section-agradecimientos,
+    .section-coincidencia,
+    .section-gustarme,
+    .section-tu,
+    .section-nosotros {
+        padding: 10px;
+    }
+
+    .musica {
+        width: 90%;
+    }
+
+    .cancion-1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h3 {
+        font-size: 16px;
+    }
+
+    .section-agradecimientos,
+    .section-coincidencia,
+    .section-gustarme,
+    .section-tu,
+    .section-nosotros {
+        padding: 5px;
+        gap: 10px;
+    }
+
+    .section-agradecimientos h2,
+    .section-coincidencia h2,
+    .section-gustarme h2,
+    .section-tu h2,
+    .section-nosotros h2{
+      width: 85%;
+      margin: 10px 0;
+      font-size: 100%;
+    }
+
+    .section-agradecimientos img,
+    .section-coincidencia img,
+    .section-gustarme  img,
+    .section-tu img,
+    .section-nosotros img{
+      width: 100%;
+    }
+
+    .video-container,
+    .video-container-2,
+    .video-container-3,
+    .video-container-4,
+    .video-container-5,
+    .video-container-6,
+    .imagen-container,
+    .imagen-container-2,
+    .imagen-container-3,
+    .imagen-container-4,
+    .imagen-container-5,
+    .imagen-container-6,
+    .imagen-container-7,
+    .imagen-container-8,
+    .imagen-container-9 {
+      margin-top: 30px;
+        width: 80%;
+    }
+
+    .section-nosotros h2{
+      width: 70%;
+      margin: 0 auto;
+    }
+    .section-tu h2{
+      width: 75%;
+      margin: 0 auto;
+    }
+    .cancion-1{
+      width: 80%;
+    }
+}
+
+/* Additional Responsive Utilities */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hidden on mobile */
+@media screen and (max-width: 480px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* Responsive Typography */
+body {
+    font-size: clamp(14px, 3vw, 20px);
+}

@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Mi amorcito/css/Pagina_principal.css">
+    <title>Como me enamore de ti</title>
+    <style>
+        * {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+header h3 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ce0060;
+}
+
+.section-agradecimientos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  font-size: 20px;
+}
+
+.section-agradecimientos h2{
+    position: relative;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 360px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.section-agradecimientos img{
+    position: relative;
+    width: 300px;
+    transition: 0.8s;
+}
+
+.section-agradecimientos img:hover{
+    transform: translate(0px, -10px);
+}
+
+.section-coincidencia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  font-size: 20px;
+}
+
+.section-coincidencia h2{
+    position: relative;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 420px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.coincidencia1{
+    position: relative;
+    width: 300px;
+    transition: 0.8s;
+    margin: 0 0;
+}
+
+.coincidencia1:hover{
+    transform: translate(0px, -10px);
+}
+
+.coincidencia2{
+    position: relative;
+    width: 300px;
+    transition: 0.8s;
+    margin: 0 0;
+}
+
+.coincidencia2:hover{
+    transform: translate(0px, -10px);
+}
+
+.section-gustarme {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  font-size: 20px;
+}
+
+.section-gustarme h2{
+    position: relative;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 380px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.gustarme-1{
+    position: relative;
+    width: 280px;
+    transition: 0.8s;
+}
+
+.gustarme-1:hover{
+    transform: translate(0px, -10px);
+}
+
+.gustarme-2{
+    position: relative;
+    width: 280px;
+    transition: 0.8s;
+}
+
+.gustarme-2:hover{
+    transform: translate(0px, -10px);
+}
+
+.gustarme-3{
+    position: relative;
+    width: 180px;
+    margin-top: 95px;
+    transition: 0.8s;
+}
+
+.gustarme-3:hover{
+    transform: translate(0px, -10px);
+}
+
+.gustarme-4{
+    position: relative;
+    width: 180px;
+    margin-top: 95px;
+    transition: 0.8s;
+}
+
+.gustarme-4:hover{
+    transform: translate(0px, -10px);
+}
+
+.section-tu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    font-size: 20px;
+}
+
+.section-tu h2{
+    position: relative;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.section-tu img{
+    position: relative;
+    width: 50%;
+    margin: 0 auto
+    transition: 0.8s;
+}
+
+.section-tu img:hover{
+    transform: translate(0px, -10px);
+}
+
+.section-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.section-nosotros h2{
+    position: absolute;
+    text-align: center;
+    margin: 0 ;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.video-container {
+  position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-1 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container:hover .video-1 {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-2 {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-2 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-2:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-2:hover .video-2  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-3 {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-3 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-3:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-3:hover .video-3  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-4 {
+    position: relative;
+    display: flex;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-4 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-4:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-4:hover .video-4  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-5 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-5 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-5:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-5:hover .video-5  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .video-container-6 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .overlay-image-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .video-6 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .overlay-image-6:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .video-container-6:hover .video-6  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container {
+    position: relative;
+    display: flex;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-1 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container:hover .foto-1  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-2 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-2 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-2:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-2:hover .foto-2  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-3 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-3 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-3:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-3:hover .foto-3  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-4 {
+    position: relative;
+    display: flex;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-4 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-4:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-4:hover .foto-4  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-5 {
+    position: relative;
+    display: flex;
+  
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-5 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-5:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-5:hover .foto-5  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-6 {
+    position: relative;
+    display: flex;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-6 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-6:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-6:hover .foto-6  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-7 {
+    position: relative;
+    padding-bottom: 0px;
+    display: flex;
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-7 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-7:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-7:hover .foto-7  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-8 {
+    position: relative;
+    padding-bottom: 0px;
+    display: grid ;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-8 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-8:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-8:hover .foto-8  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .imagen-container-9 {
+    position: relative;
+    padding-bottom: 0px;
+    display: grid;
+    
+    width: 300px; /* Ancho del contenedor */
+    height: 450px;
+    aspect-ratio: 16 / 9; /* Relación de aspecto estándar */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamientos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen siempre visible */
+  .superponer-imagen-9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 2; /* Siempre encima del video */
+  }
+
+  /* Video inicial oculto */
+  .foto-9 {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Detrás de la imagen */
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al mostrar */
+  }
+
+  .superponer-imagen-9:hover{
+    opacity: 0;
+  }
+
+  /* Mostrar el video al pasar el cursor */
+  .imagen-container-9:hover .foto-9  {
+    opacity: 1; /* Hacer visible el video */
+  }
+
+  .musica{
+    position: relative;
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+  }
+
+
+  .cancion-1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(45deg, #e777bc, #fa20c3);
+    width: 500px;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+        display: block;
+    }
+
+    .section-agradecimientos,
+    .section-coincidencia,
+    .section-gustarme,
+    .section-tu,
+    .section-nosotros {
+        padding: 10px;
+    }
+
+    .musica {
+        width: 90%;
+    }
+
+    .cancion-1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h3 {
+        font-size: 16px;
+    }
+
+    .section-agradecimientos,
+    .section-coincidencia,
+    .section-gustarme,
+    .section-tu,
+    .section-nosotros {
+        padding: 5px;
+        gap: 10px;
+    }
+
+    .section-agradecimientos h2,
+    .section-coincidencia h2,
+    .section-gustarme h2,
+    .section-tu h2,
+    .section-nosotros h2{
+      width: 85%;
+      margin: 10px 0;
+      font-size: 100%;
+    }
+
+    .section-agradecimientos img,
+    .section-coincidencia img,
+    .section-gustarme  img,
+    .section-tu img,
+    .section-nosotros img{
+      width: 100%;
+    }
+
+    .video-container,
+    .video-container-2,
+    .video-container-3,
+    .video-container-4,
+    .video-container-5,
+    .video-container-6,
+    .imagen-container,
+    .imagen-container-2,
+    .imagen-container-3,
+    .imagen-container-4,
+    .imagen-container-5,
+    .imagen-container-6,
+    .imagen-container-7,
+    .imagen-container-8,
+    .imagen-container-9 {
+      margin-top: 30px;
+        width: 80%;
+    }
+
+    .section-nosotros h2{
+      width: 70%;
+      margin: 0 auto;
+    }
+    .section-tu h2{
+      width: 75%;
+      margin: 0 auto;
+    }
+    .cancion-1{
+      width: 80%;
+    }
+}
+
+/* Additional Responsive Utilities */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hidden on mobile */
+@media screen and (max-width: 480px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* Responsive Typography */
+body {
+    font-size: clamp(14px, 3vw, 20px);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+        <h1><strong>Michelin</strong></h1>
+        <h3>(Tu nuevo apodo)</h3> 
+        <nav>
+            <ul>
+                <li><a href="#Agradecimientos">Agradecimientos</a></li>
+                <li><a href="#Coincidencia">Como nos conocimos</a></li>
+                <li><a href="#Gustarme">Como supe que me gustabas</a></li>
+                <li><a href="#Tu">¿Porque tu?</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main class="container">
+         <div id="Agradecimientos" class="section-agradecimientos">
+            <h2><strong>Agradecimientos<3</strong></h2>
+            <p>Por medio de este texto quiero agradecerle especialmente a la vida y al destino por haberte cruzado en mi camino y haber coincidido contigo en un mismo lugar, espacio y tiempo, también agradezco todas las cosas que hemos vivido tanto estando juntos como  no estándolo, las cuales nos están formando en unas muy buenas personas pero lo mejor es que estamos siendo una mejor pareja, gracias a ti por ser, estar, seguir y compartir conmigo, te amo cielito lindo.</p>
+            <img src="../Mi amorcito/imagenes/Hello_kitty-agradecimientos.png" >
+         </div>
+         <div id="Coincidencia" class="section-coincidencia">
+            <h2><strong>Como nos conocimos<3</strong></h2>
+            <p>Nuestros dos bellos rostros se cruzaron mucho antes de lo que tu crees actualmente, todo empezó hace aproximadamente 6 o 5 años maso menos, cuando tu aun vivías acá en el barrio, donde me dijiste que antes vivías ahí con tus papás, yo tengo recuerdos de ti ahí (aun que tenga muy mala memoria, aun me acuerdo de eso y supongo que porque es demasiado importante para mi) y a pesar que en ese momento no nos hablábamos ni nada yo ya sabia de ti, tiempo después cuando ya no vivías por aquí pero venias recurrentemente a ver a tu abuela y en general por el colegio, fue en algunos de esos días cuando nos conocimos y empezamos a tener contacto ya que me parecías una chica muy atractiva (hoy en día me pareces aun más), desde ahí empezamos a hablar aun más e interesarnos por los gustos del otro, me contabas que hacías en el día, que comías, que te interesaba, e igualmente yo  contigo.</p>
+            <img src="../Mi amorcito/imagenes/Hello_kitty-concidencia.png" class="coincidencia1">
+            <img src="../Mi amorcito/imagenes/Hello_kitty-concidencia2.png" class="coincidencia2">
+         </div>
+         <div id="Gustarme" class="section-gustarme">
+            <h2><strong>Como supe que me gustabas tu<3</strong></h2>
+            <p>Supe que me gustabas cuando solo ansiaba que pasara ese preciso momento del día en el que nos cruzábamos y yo podía verte, aunque solo eran unos instantes para mi eran tan valiosos y los apreciaba tanto que supe que me había enamorado de ti, a partir de ahí empecé a saber más y más de ti y simplemente me iba enamorando mucho más de ti, porque resulta y pasa que todo de ti me terminaba gustando demasiado (hasta a mi se me hizo raro), pero simplemente estaba pasando, sin saber porque así tan explosivo pero contento en el como me hacia sentir eso, los únicos mensajes que me emocionaban eran los tuyos, las únicas caricias que quería eran las tuyas, los cumplidos que más me gustaban eran los tuyos, me estaba volviendo tuyo. <br><br><br>
+
+                posdata: al día del hoy me pasa todo eso y más. </p>
+            <img src="../Mi amorcito/imagenes/Kuromi1-gustarme.png" class="gustarme-1">
+            <img src="../Mi amorcito/imagenes/kuromi2-gustarme.png" class="gustarme-3"> 
+            <img src="../Mi amorcito/imagenes/kuromi2-gustarme2.png" class="gustarme-4">   
+            <img src="../Mi amorcito/imagenes/Kuromi1-gustarme2.png" class="gustarme-2">
+         </div>
+         <div id="Tu" class="section-tu">
+            <h2>¿Por  que tú?<3</h2>
+            <p>Creo que muchas veces has estado en tu cuarto pensando del  porque sigues siendo tu a pesar de lo que todo  ha pasado y es porque simplemente tu haces que me sienta en mi hogar, eres la cobijita de mi corazón cuando a el le da frio, eres la mujer que sin importar que me estas apoyando a cada instante de mi vida, sigues a mi lado a pesar de mis fallos o mis locuras, porque me sigues amando con todos mis defectos y cualidades, porque simplemente eres todo lo que un hombre desearía, cariñosa, consentida, juiciosa, hermosa (demasiado), correcta, y lo mas lindo de todo, increíble como ninguna, y todas esas calidades son las que me hacen elegirte al despertar, al dormir y durante todos los días. Gracias por estar a mi lado y ser aquello que nadie lo fue antes conmigo. </p>
+            <img src="../Mi amorcito/imagenes/Hello_kitty-tu.png">
+         </div>
+         <div id="Nosotros" class="section-nosotros">
+            <h2>Nosotros<3</h2>
+            <div class="video-container">
+                <img class="overlay-image" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros.jpg" alt="Imagen superpuesta">    
+                <video src="../Mi amorcito/videos/Nosotros 1.mp4" controls autoplay loop muted class="video-1"></video>
+            </div>
+            <div class="video-container-2">
+                <img class="overlay-image-2" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros.jpg" alt="Imagen superpuesta">    
+                <video src="../Mi amorcito/videos/Nosotros 2.mp4" controls autoplay loop muted class="video-2"></video>
+            </div>
+            <div class="video-container-3">
+                <img class="overlay-image-3" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros.jpg" alt="Imagen superpuesta">    
+                <video src="../Mi amorcito/videos/Nosotros 3.mp4" controls autoplay loop muted class="video-3"></video>
+            </div>
+            <div class="video-container-4">
+                <img class="overlay-image-4" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros.jpg" alt="Imagen superpuesta">    
+                <video src="../Mi amorcito/videos/Nosotros 4.mp4" controls autoplay loop muted class="video-4"></video>
+            </div>
+            <div class="video-container-5">
+                <img class="overlay-image-5" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros.jpg" alt="Imagen superpuesta">    
+                <video src="../Mi amorcito/videos/Nosotros 5.mp4" controls autoplay loop muted class="video-5"></video>
+            </div>
+            <div class="video-container-6">
+                <img class="overlay-image-6" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros.jpg" alt="Imagen superpuesta">    
+                <video src="../Mi amorcito/videos/Nosotros 6.mp4" controls autoplay loop muted class="video-6"></video>
+            </div>
+            <div class="imagen-container">
+                <img class="superponer-imagen" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/Foto  1.jpg" class="foto-1" >
+            </div>
+            <div class="imagen-container-2">
+                <img class="superponer-imagen-2" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/foto 2.jpg" class="foto-2" >
+            </div>
+            <div class="imagen-container-3">
+                <img class="superponer-imagen-3" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/foto 3.jpg" class="foto-3" >
+            </div>
+            <div class="imagen-container-4">
+                <img class="superponer-imagen-4" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/foto 4.jpg" class="foto-4" >
+            </div>
+            <div class="imagen-container-5">
+                <img class="superponer-imagen-5" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/foto 5.jpg" class="foto-5" >
+            </div>
+            <div class="imagen-container-6">
+                <img class="superponer-imagen-6" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/foto 6.jpg" class="foto-6" >
+            </div>
+            <div class="imagen-container-7">
+                <img class="superponer-imagen-7" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/foto 7.jpg" class="foto-7" >
+            </div>
+            <div class="imagen-container-8">
+                <img class="superponer-imagen-8" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/foto 8.jpg" class="foto-8" >
+            </div>
+            <div class="imagen-container-9">
+                <img class="superponer-imagen-9" src="../Mi amorcito/imagenes/Hello kitty_spiderman-nosotros2.jpg" alt="imagen superpuesta">
+                <img src="../Mi amorcito/imagenes/foto 9.jpg" class="foto-9" >
+            </div>
+            <h3 class="cancion-1">Y por ultimo quiero que escuhes esta cación, eso y mucho mas es lo que siento por ti<3</h3>
+            <div class="musica">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5l6hpyTGBK0LAAxgPnqTQL?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    
+            </div>
+         </div>
+    </main>
+</body>
+</html>
